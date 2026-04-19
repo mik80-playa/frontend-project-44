@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/mik80-playa/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mik80-playa/frontend-project-44/actions)",
+  "description": "Brain Games - collection of five math games",
   "main": "index.js",
   "type": "module",
   "bin": {
