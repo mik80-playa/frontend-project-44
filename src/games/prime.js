@@ -6,7 +6,7 @@ const maxNumber = 100
 const minNumber = 1
 const minPrime = 2
 
-const isPrime = (num) => {
+const isPrime = num => {
   if (num < minPrime) {
     return false
   }

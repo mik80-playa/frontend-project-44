@@ -4,7 +4,7 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 const maxNumber = 100
 
-const isEven = (num) => num % 2 === 0
+const isEven = num => num % 2 === 0
 
 const generateRound = () => {
   const question = Math.floor(Math.random() * maxNumber)
