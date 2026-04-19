@@ -1,4 +1,4 @@
-import stylistic from '@stylistic/eslint-plugin';
+import stylistic from '@stylistic/eslint-plugin'
 
 export default [
   {
@@ -6,7 +6,7 @@ export default [
       '@stylistic': stylistic,
     },
     rules: {
-      '@stylistic/semi': ['error', 'always'],
+      '@stylistic/semi': ['error', 'never'],
       '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
@@ -16,4 +16,4 @@ export default [
       '@stylistic/eol-last': ['error', 'always'],
     },
   },
-];
+]
